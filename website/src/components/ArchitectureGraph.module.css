@@ -68,7 +68,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background: #181715;
+  background: #1c1a18;
   padding: 8px 18px;
   border-radius: 9999px;
   position: relative;
@@ -78,14 +78,14 @@
   content: '';
   width: 24px;
   height: 2px;
-  background: #cc785c;
+  background: #b87351;
   position: absolute;
   right: -20px;
   top: 50%;
 }
 
 .flowLabel {
-  color: #cc785c;
+  color: #b87351;
   font-weight: 500;
   font-size: 0.8rem;
   font-family: 'JetBrains Mono', monospace;
@@ -98,7 +98,7 @@
 }
 
 .featureCardDark {
-  background: #252320;
+  background: #2a2826;
   border-radius: 12px;
   padding: 20px;
   text-align: center;
@@ -115,7 +115,7 @@
 }
 
 .featureTitle {
-  color: #faf9f5;
+  color: #f2f0ed;
   font-size: 0.95rem;
   font-weight: 500;
   margin-bottom: 6px;
@@ -123,7 +123,7 @@
 }
 
 .featureDesc {
-  color: #a09d96;
+  color: #9a9793;
   font-size: 0.8rem;
   line-height: 1.5;
   margin: 0;

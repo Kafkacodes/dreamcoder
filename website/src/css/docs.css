@@ -3,31 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Brand & Accent */
-  --dc-primary: #cc785c;
-  --dc-primary-active: #a9583e;
-  --dc-accent-teal: #5db8a6;
-  --dc-accent-amber: #e8a55a;
+  /* Brand & Accent - 与首页一致的柔和色调 */
+  --dc-primary: #b87351;
+  --dc-primary-active: #9a5f42;
+  --dc-accent-teal: #4a9e8c;
+  --dc-accent-amber: #d4944a;
 
-  /* Surface */
-  --dc-canvas: #faf9f5;
-  --dc-surface-soft: #f5f0e8;
-  --dc-surface-card: #efe9de;
-  --dc-surface-dark: #181715;
-  --dc-surface-dark-elevated: #252320;
-  --dc-surface-dark-soft: #1f1e1b;
-  --dc-hairline: #e6dfd8;
-  --dc-hairline-soft: #ebe6df;
+  /* Surface - 更温暖的米色系 */
+  --dc-canvas: #f7f4ef;
+  --dc-surface-soft: #efe8de;
+  --dc-surface-card: #e8e0d4;
+  --dc-surface-dark: #1c1a18;
+  --dc-surface-dark-elevated: #2a2826;
+  --dc-surface-dark-soft: #242220;
+  --dc-hairline: #dad4c8;
+  --dc-hairline-soft: #e8e2d8;
 
-  /* Text */
-  --dc-ink: #141413;
-  --dc-body-strong: #252523;
-  --dc-body: #3d3d3a;
-  --dc-muted: #6c6a64;
-  --dc-muted-soft: #8e8b82;
-  --dc-on-primary: #ffffff;
-  --dc-on-dark: #faf9f5;
-  --dc-on-dark-soft: #a09d96;
+  /* Text - 更柔和的文字颜色 */
+  --dc-ink: #1a1816;
+  --dc-body-strong: #2d2b29;
+  --dc-body: #4a4845;
+  --dc-muted: #75716f;
+  --dc-muted-soft: #95928e;
+  --dc-on-primary: #faf8f5;
+  --dc-on-dark: #f2f0ed;
+  --dc-on-dark-soft: #9a9793;
 }
 
 /* Override Docusaurus defaults */

@@ -5,33 +5,33 @@ const architectureData = {
   layers: [
     {
       name: 'UI 层',
-      color: '#efe9de',
-      textColor: '#141413',
-      borderColor: '#e6dfd8',
+      color: '#e8e0d4',
+      textColor: '#1a1816',
+      borderColor: '#dad4c8',
       items: ['会话多标签页', '可视化 Diff 面板', '集成终端 xterm.js'],
       icon: ''
     },
     {
       name: 'Rust 核心',
-      color: '#181715',
-      textColor: '#faf9f5',
-      borderColor: '#cc785c',
+      color: '#1c1a18',
+      textColor: '#f2f0ed',
+      borderColor: '#b87351',
       items: ['窗口状态持久化', '安全审批闸口', 'PTY 终端控制'],
       icon: ''
     },
     {
       name: 'Bun 运行时',
-      color: '#1f1e1b',
-      textColor: '#faf9f5',
-      borderColor: '#5db8a6',
+      color: '#242220',
+      textColor: '#f2f0ed',
+      borderColor: '#4a9e8c',
       items: ['AI Agent 引擎', 'Provider 路由', 'MCP 工具服务'],
       icon: ''
     },
     {
       name: '云端模型',
-      color: '#faf9f5',
-      textColor: '#141413',
-      borderColor: '#8e8b82',
+      color: '#f7f4ef',
+      textColor: '#1a1816',
+      borderColor: '#95928e',
       items: ['DeepSeek', 'Kimi', 'MiniMax', 'Claude', '通义千问'],
       icon: ''
     }

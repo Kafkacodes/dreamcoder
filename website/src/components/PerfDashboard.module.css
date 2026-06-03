@@ -5,7 +5,7 @@
 }
 
 .benchmarkCard {
-  background: #252320;
+  background: #2a2826;
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
@@ -19,7 +19,7 @@
 }
 
 .benchmarkName {
-  color: #faf9f5;
+  color: #f2f0ed;
   font-size: 1rem;
   font-weight: 500;
   margin: 0;
@@ -27,8 +27,8 @@
 }
 
 .improvementBadge {
-  background: rgba(204, 120, 92, 0.15);
-  color: #cc785c;
+  background: rgba(184, 115, 81, 0.15);
+  color: #b87351;
   padding: 4px 12px;
   border-radius: 9999px;
   font-size: 0.8rem;
@@ -36,13 +36,13 @@
 }
 
 .improvementBadgeTeal {
-  background: rgba(93, 184, 166, 0.15);
-  color: #5db8a6;
+  background: rgba(74, 158, 140, 0.15);
+  color: #4a9e8c;
 }
 
 .improvementBadgeAmber {
-  background: rgba(232, 165, 90, 0.15);
-  color: #e8a55a;
+  background: rgba(212, 148, 74, 0.15);
+  color: #d4944a;
 }
 
 .barContainer {
@@ -57,44 +57,44 @@
 }
 
 .barLabelBefore {
-  color: #8e8b82;
+  color: #95928e;
 }
 
 .barLabelAfter {
-  color: #5db8a6;
+  color: #4a9e8c;
   font-weight: 600;
 }
 
 .barTrack {
   height: 24px;
-  background: #1f1e1b;
+  background: #242220;
   border-radius: 6px;
   overflow: hidden;
 }
 
 .barFillBefore {
   height: 100%;
-  background: #6c6a64;
+  background: #75716f;
   border-radius: 6px;
   transition: width 0.8s ease;
 }
 
 .barFillAfter {
   height: 100%;
-  background: #5db8a6;
+  background: #4a9e8c;
   border-radius: 6px;
   transition: width 0.8s ease;
-  box-shadow: 0 0 20px rgba(93, 184, 166, 0.4);
+  box-shadow: 0 0 20px rgba(74, 158, 140, 0.4);
 }
 
 .barFillAfterAmber {
-  background: #e8a55a;
-  box-shadow: 0 0 20px rgba(232, 165, 90, 0.4);
+  background: #d4944a;
+  box-shadow: 0 0 20px rgba(212, 148, 74, 0.4);
 }
 
 .note {
   font-size: 0.8rem;
-  color: #8e8b82;
+  color: #95928e;
 }
 
 /* Summary Stats */
@@ -106,16 +106,16 @@
 }
 
 .statCard {
-  background: #181715;
+  background: #1c1a18;
   border-radius: 12px;
   padding: 24px;
   text-align: center;
-  border: 1px solid #252320;
+  border: 1px solid #2a2826;
   transition: border-color 0.2s ease;
 }
 
 .statCard:hover {
-  border-color: #cc785c;
+  border-color: #b87351;
 }
 
 .statIcon {
@@ -127,14 +127,14 @@
   font-family: 'Cormorant Garamond', serif;
   font-size: 2.5rem;
   font-weight: 600;
-  color: #faf9f5;
+  color: #f2f0ed;
   line-height: 1;
   margin-bottom: 4px;
 }
 
 .statLabel {
   font-size: 0.85rem;
-  color: #a09d96;
+  color: #9a9793;
 }
 
 /* Responsive */
