@@ -33,7 +33,7 @@ const features = [
   {
     icon: '⚡',
     title: '极致性能',
-    description: '14 项深度优化，会话元数据缓存���现 24.8 倍性能提升。',
+    description: '14 项深度优化，会话元数据缓存实现 24.8 倍性能提升。',
   },
 ];
 

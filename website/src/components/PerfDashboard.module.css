@@ -1,0 +1,155 @@
+.dashboardWrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.benchmarkCard {
+  background: #252320;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.benchmarkHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.benchmarkName {
+  color: #faf9f5;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.improvementBadge {
+  background: rgba(204, 120, 92, 0.15);
+  color: #cc785c;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.improvementBadgeTeal {
+  background: rgba(93, 184, 166, 0.15);
+  color: #5db8a6;
+}
+
+.improvementBadgeAmber {
+  background: rgba(232, 165, 90, 0.15);
+  color: #e8a55a;
+}
+
+.barContainer {
+  margin-bottom: 16px;
+}
+
+.barLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+}
+
+.barLabelBefore {
+  color: #8e8b82;
+}
+
+.barLabelAfter {
+  color: #5db8a6;
+  font-weight: 600;
+}
+
+.barTrack {
+  height: 24px;
+  background: #1f1e1b;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.barFillBefore {
+  height: 100%;
+  background: #6c6a64;
+  border-radius: 6px;
+  transition: width 0.8s ease;
+}
+
+.barFillAfter {
+  height: 100%;
+  background: #5db8a6;
+  border-radius: 6px;
+  transition: width 0.8s ease;
+  box-shadow: 0 0 20px rgba(93, 184, 166, 0.4);
+}
+
+.barFillAfterAmber {
+  background: #e8a55a;
+  box-shadow: 0 0 20px rgba(232, 165, 90, 0.4);
+}
+
+.note {
+  font-size: 0.8rem;
+  color: #8e8b82;
+}
+
+/* Summary Stats */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.statCard {
+  background: #181715;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  border: 1px solid #252320;
+  transition: border-color 0.2s ease;
+}
+
+.statCard:hover {
+  border-color: #cc785c;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.statValue {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #faf9f5;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: #a09d96;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .benchmarkHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .dashboardWrapper {
+    padding: 16px;
+  }
+}
