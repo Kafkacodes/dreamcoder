@@ -103,8 +103,9 @@ Claude Code 非常强大，但它是一个纯命令行工具 (CLI-only)。
 
 - [x] **Phase 1**: 桌面端 GUI + 多模型支持 + 项目工作台
 - [x] **Phase 2**: CLI 后端集成 + Computer Use (视觉+UIA模式)
-- [ ] **Phase 3**: 云端同步与 H5 远程访问 (手机/浏览器访问 AI)
-- [ ] **Phase 4**: IM 适配器 (飞书/钉钉/Discord/Telegram)
+- [x] **Phase 2.5**: 性能优化 — bundle 拆分、轮询节流、终端 LRU、sessionStore 重构
+- [ ] **Phase 3**: 云端同步与 H5 远程访问 (手机/浏览器访问 AI) — 基础功能已实现，待完善
+- [ ] **Phase 4**: IM 适配器 (飞书/钉钉/Telegram/微信) — 适配器代码已完成，待集成测试
 
 ---
 
@@ -140,6 +141,10 @@ cd desktop && bun run dev
 ## 🤝 贡献指南
 
 欢迎提交 Issue 和 PR！请阅读我们的 [贡献指南](docs/CONTRIBUTING.md) 了解更多详情。
+
+## 📝 更新日志
+
+版本历史详见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 📄 许可证
 

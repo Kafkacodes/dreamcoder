@@ -70,8 +70,9 @@ DreamCoder brings a **native desktop interface** to that powerful engine.
 
 - [x] **Phase 1**: Desktop App (Windows/macOS) + Multi-Provider System + Project Workspace
 - [x] **Phase 2**: CLI Backend Integration + Computer Use (Visual + UIA Mode)
-- [ ] **Phase 3**: Cloud Sync & H5 Remote Access (Access AI from phone/browser)
-- [ ] **Phase 4**: IM Adapters (Feishu, Slack, Discord, Telegram)
+- [x] **Phase 2.5**: Performance — bundle splitting, polling throttle, terminal LRU, sessionStore refactor
+- [ ] **Phase 3**: Cloud Sync & H5 Remote Access (Access AI from phone/browser) — basic features implemented, refinement in progress
+- [ ] **Phase 4**: IM Adapters (Feishu, DingTalk, Telegram, WeChat) — adapter code complete, integration testing pending
 
 ---
 
@@ -107,6 +108,10 @@ cd desktop && bun run dev
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](docs/CONTRIBUTING.md) for details.
+
+## 📝 Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## 📄 License
 
