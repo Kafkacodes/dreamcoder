@@ -34,8 +34,12 @@
 [![React 18](https://img.shields.io/badge/React-18-61DAFB)](https://react.dev/)
 [![Bun](https://img.shields.io/badge/Bun-✓-fbf0df)](https://bun.sh/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![Good First Issues](https://img.shields.io/github/issues/GoDiao/dreamcoder/good%20first%20issue?color=7057ff&label=good%20first%20issues)](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+[![Help Wanted](https://img.shields.io/github/issues/GoDiao/dreamcoder/help%20wanted?color=008672&label=help%20wanted)](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
 
 </div>
+
+> 🌱 **正在招募贡献者！** 我们整理了一批 [good first issue](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) 和 [help wanted](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)，每条都有 mentor 可以陪你走完第一个 PR。先读 [贡献指南](docs/CONTRIBUTING_zh.md) 再下手会更顺。
 
 ---
 

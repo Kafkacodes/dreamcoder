@@ -2,6 +2,29 @@
 
 感谢你对 DreamCoder 的关注！无论是报告 bug、提出功能建议，还是提交代码，都非常欢迎。
 
+## ⚡ 5 分钟快速上手 (TL;DR)
+
+```bash
+# 1. 在 GitHub 上 Fork，然后 clone 你的 fork
+git clone https://github.com/<your-name>/dreamcoder.git && cd dreamcoder
+
+# 2. 安装依赖（需要 Bun >= 1.0、Rust、Node >= 18）
+bun install
+
+# 3. 启动桌面端开发模式
+cd desktop && bun run dev
+
+# 4. 在 issue 列表挑一个带 `good first issue` 或 `help wanted` 标签的任务，
+#    从 dev 分支拉一个功能分支
+git checkout dev && git checkout -b feat/your-feature
+
+# 5. 写代码 → bun run lint → bun run test → push → 提 PR 到 dev 分支
+```
+
+👉 **第一次贡献？** 直接看 [good first issues](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)，每条都有 mentor，可以在 issue 或 PR 里直接 at 他们。
+
+---
+
 ## 行为准则
 
 - 尊重每一位贡献者。

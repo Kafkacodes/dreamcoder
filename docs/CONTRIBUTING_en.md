@@ -2,6 +2,29 @@
 
 Thank you for your interest in DreamCoder! Whether you're reporting a bug, suggesting a feature, or submitting code, all contributions are welcome.
 
+## ⚡ 5-Minute Quick Start (TL;DR)
+
+```bash
+# 1. Fork on GitHub, then clone your fork
+git clone https://github.com/<your-name>/dreamcoder.git && cd dreamcoder
+
+# 2. Install dependencies (Bun >= 1.0, Rust, Node >= 18 required)
+bun install
+
+# 3. Start the desktop app in dev mode
+cd desktop && bun run dev
+
+# 4. Pick an issue with the `good first issue` or `help wanted` label,
+#    create a feature branch from `dev`
+git checkout dev && git checkout -b feat/your-feature
+
+# 5. Code → bun run lint → bun run test → push → open a PR targeting `dev`
+```
+
+👉 **First time?** Browse [good first issues](https://github.com/GoDiao/dreamcoder/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22). Each one has a mentor — feel free to ping them in the issue or PR.
+
+---
+
 ## Code of Conduct
 
 - Respect every contributor.
